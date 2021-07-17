@@ -1,23 +1,25 @@
 springboot/Posts/dto/PostsUpdateRequestDto.java
  springboot.Posts.dto.PostsUpdateRequestDto
  springboot.Posts.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
-springboot/Posts/domain/PostsRepository.java
- springboot.Posts.domain.PostsRepository
-springboot/Posts/controller/PostsApiController.java
- springboot.Posts.controller.PostsApiController
+springboot/Posts/dto/PostsResponseDto.java
+ springboot.Posts.dto.PostsResponseDto
+springboot/Posts/domain/Posts.java
+ springboot.Posts.domain.Posts
+ springboot.Posts.domain.Posts$PostsBuilder
 springboot/Application.java
  springboot.Application
 springboot/Posts/domain/BaseTimeEntity.java
  springboot.Posts.domain.BaseTimeEntity
-springboot/Posts/service/PostsService.java
- springboot.Posts.service.PostsService
-springboot/Posts/dto/PostsResponseDto.java
- springboot.Posts.dto.PostsResponseDto
 springboot/Posts/dto/PostsSaveRequestDto.java
  springboot.Posts.dto.PostsSaveRequestDto
  springboot.Posts.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
-springboot/Posts/domain/Posts.java
- springboot.Posts.domain.Posts
- springboot.Posts.domain.Posts$PostsBuilder
+springboot/Posts/dto/PostsListReponseDto.java
+ springboot.Posts.dto.PostsListReponseDto
+springboot/Posts/domain/PostsRepository.java
+ springboot.Posts.domain.PostsRepository
+springboot/Posts/controller/PostsApiController.java
+ springboot.Posts.controller.PostsApiController
 springboot/Posts/controller/IndexController.java
  springboot.Posts.controller.IndexController
+springboot/Posts/service/PostsService.java
+ springboot.Posts.service.PostsService

@@ -5,9 +5,13 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import springboot.Posts.domain.Posts;
 import springboot.Posts.domain.PostsRepository;
+import springboot.Posts.dto.PostsListReponseDto;
 import springboot.Posts.dto.PostsResponseDto;
 import springboot.Posts.dto.PostsSaveRequestDto;
 import springboot.Posts.dto.PostsUpdateRequestDto;
+
+import java.util.List;
+import java.util.stream.Collectors;
 
 @RequiredArgsConstructor
 @Service
@@ -44,4 +48,12 @@ public class PostsService {
 
         return new PostsResponseDto(entity);
     }
+
+    @Transactional(readOnly = true)
+    public List<PostsListReponseDto> findAllDesc(){
+        return postsRepository.findAllDesc().stream()
+                .map(PostsListReponseDto::new)
+                .collect(Collectors.toList());
+    }
+
 }
