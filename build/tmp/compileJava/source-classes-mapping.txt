@@ -1,25 +1,41 @@
-springboot/Posts/dto/PostsUpdateRequestDto.java
- springboot.Posts.dto.PostsUpdateRequestDto
- springboot.Posts.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
-springboot/Posts/dto/PostsResponseDto.java
- springboot.Posts.dto.PostsResponseDto
-springboot/Posts/domain/Posts.java
- springboot.Posts.domain.Posts
- springboot.Posts.domain.Posts$PostsBuilder
-springboot/Application.java
- springboot.Application
+springboot/Posts/controller/PostsApiController.java
+ springboot.Posts.controller.PostsApiController
 springboot/Posts/domain/BaseTimeEntity.java
  springboot.Posts.domain.BaseTimeEntity
+springboot/Posts/config/auth/dto/OAuthAttributes.java
+ springboot.Posts.config.auth.dto.OAuthAttributes
+ springboot.Posts.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
+springboot/Posts/service/PostsService.java
+ springboot.Posts.service.PostsService
+springboot/Posts/dto/PostsListResponseDto.java
+ springboot.Posts.dto.PostsListResponseDto
 springboot/Posts/dto/PostsSaveRequestDto.java
  springboot.Posts.dto.PostsSaveRequestDto
  springboot.Posts.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
-springboot/Posts/dto/PostsListReponseDto.java
- springboot.Posts.dto.PostsListReponseDto
+springboot/Posts/domain/Posts.java
+ springboot.Posts.domain.Posts
+ springboot.Posts.domain.Posts$PostsBuilder
+springboot/Posts/config/auth/SecurityConfig.java
+ springboot.Posts.config.auth.SecurityConfig
+springboot/Application.java
+ springboot.Application
+springboot/Posts/domain/User.java
+ springboot.Posts.domain.User
+ springboot.Posts.domain.User$UserBuilder
+springboot/Posts/config/auth/dto/SessionUser.java
+ springboot.Posts.config.auth.dto.SessionUser
+springboot/Posts/domain/UserRepository.java
+ springboot.Posts.domain.UserRepository
+springboot/Posts/dto/PostsResponseDto.java
+ springboot.Posts.dto.PostsResponseDto
+springboot/Posts/config/auth/CustomOAuth2UserService.java
+ springboot.Posts.config.auth.CustomOAuth2UserService
 springboot/Posts/domain/PostsRepository.java
  springboot.Posts.domain.PostsRepository
-springboot/Posts/controller/PostsApiController.java
- springboot.Posts.controller.PostsApiController
+springboot/Posts/domain/Role.java
+ springboot.Posts.domain.Role
+springboot/Posts/dto/PostsUpdateRequestDto.java
+ springboot.Posts.dto.PostsUpdateRequestDto
+ springboot.Posts.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
 springboot/Posts/controller/IndexController.java
  springboot.Posts.controller.IndexController
-springboot/Posts/service/PostsService.java
- springboot.Posts.service.PostsService

@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import springboot.Posts.domain.Posts;
 import springboot.Posts.domain.PostsRepository;
-import springboot.Posts.dto.PostsListReponseDto;
+import springboot.Posts.dto.PostsListResponseDto;
 import springboot.Posts.dto.PostsResponseDto;
 import springboot.Posts.dto.PostsSaveRequestDto;
 import springboot.Posts.dto.PostsUpdateRequestDto;
@@ -50,9 +50,9 @@ public class PostsService {
     }
 
     @Transactional(readOnly = true)
-    public List<PostsListReponseDto> findAllDesc(){
+    public List<PostsListResponseDto> findAllDesc(){
         return postsRepository.findAllDesc().stream()
-                .map(PostsListReponseDto::new)
+                .map(PostsListResponseDto::new)
                 .collect(Collectors.toList());
     }
 
